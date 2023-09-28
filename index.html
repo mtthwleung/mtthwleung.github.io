@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Leung</title>
+    <script src="https://kit.fontawesome.com/8f5ccdf58a.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <div class="container-xxl">
+            <a href="#" class="navbar-brand">
+                <span class="fw-bold">Matthew Leung</span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" 
+            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Work</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="about" class="m-5">
+        <div class="row">
+            <div class="col-12 col-xl-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/profilepic.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-12 col-xl-9 d-flex align-items-center">
+                <div>
+                    <h2 class="main-text animate__animated animate__fadeInDown">I'm Matthew, a full-stack developer based in Hong Kong.</h2>
+                    <h5 class="sub-text animate__animated animate__fadeInDown">Having previously worked in other industries, I am currently enrolled in Xccelerate's web development bootcamp and looking to transition to a career in software development.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work" class="text-center">
+        <h1>Work Experience</h1>
+        <div class="jobs d-flex justify-content-center">
+
+            <div class="card mx-5 border-0 animate__animated animate__fadeInLeft animate__delay-1s" style="width: 18rem;">
+                <img src="./assets/images/gobee.png" class="card-img-top" alt="gobee logo">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="https://gobee-bike.webflow.io/" target="_blank">Gobee.bike</a></h5>
+                    <span>May 2017 - Feb 2018</span><br>
+                    <span>Hong Kong</span>
+                </div>
+            </div>
+
+            <div class="card mx-5 border-0 animate__animated animate__fadeInLeft animate__delay-1s" style="width: 18rem;">
+                <img src="./assets/images/asenshia.jpg" class="card-img-top" alt="asenshia logo">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="https://asenshia.com" target="_blank">ASENSHIA Executive Search</a></h5>
+                    <span>Dec 2018 - Oct 2022</span><br>
+                    <span>Tokyo</span>                    
+                </div>
+            </div>
+ 
+        </div>
+
+        <p>View my full resume <a href="https://docs.google.com/document/d/0B--87phHoyqAMzhqbTh4akpzTmhHbjVVYWdZU2hQcGlRYTRn/edit?resourcekey=0-j-Ik1bojaBDJLYtMLbbYUA" target="_blank">here</a>.</p>
+    </div>
+
+    <div id="projects">
+        <div class="container-xxl">
+            <h1>Projects</h1>
+
+            <p class="project-description">Tabon is a social job platform for designers. Sign up <a href="https://tabon.co.uk" target="_blank">here</a>.</p>
+            <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/tabon home.jpg" class="d-block w-100" alt="tabon home page">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/tabon job board.jpg" class="d-block w-100" alt="tabon job board page">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/tabon log-in.jpg" class="d-block w-100" alt="tabon sign-in page">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <p class="project-description">Canvas is a drawing tool, created using JavaScript's Canvas API</p>
+            <img src="./assets/images/canvas.jpg" alt="canvas">
+        </div>
+    </div>
+
+    <div id="contact" class="my-5 text-center">
+        <h1>Contact Me</h1>
+        <div class="d-flex justify-content-center">
+            <div class="contact-container">
+                <h4>Connect With Me</h4>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/matthew-leung-7672b890/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/mtthwleung" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-container">
+                <h4>Quick Links</h4>
+                <div>
+                    <ul class="quicklinks text-start">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <span>Copyright © 2023</span>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>

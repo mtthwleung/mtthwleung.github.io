@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Martian+Mono:wght@500&family=Mooli&display=swap');
+
+nav {
+    opacity: 0.98;
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+.nav-item:hover {
+    background-color: rgb(192, 182, 182);
+    border-radius: 0.7rem;
+}
+
+h1 {
+    font-family: 'Martion Mono', monospace;
+    font-size: 3rem;
+}
+
+#about {
+    padding: 5rem 5rem 0;
+}
+
+.main-text {
+    font-size: 3rem;
+}
+
+.sub-text {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-img-top {
+  max-height: 15rem;
+  object-fit: cover;
+}
+
+#work {
+    background-color: #ff5722;
+    padding: 4rem 0 2rem;
+}
+
+.jobs{
+    margin: 3rem 0;
+}
+
+#projects {
+    padding: 4rem 0;
+}
+
+#projects h1 {
+    text-align: center;
+}
+
+.project-description {
+    font-size: 1.5rem;
+    margin: 3rem 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+.carousel-item {
+    max-height: 35rem;
+}
+
+#contact {
+    color: white;
+}
+
+#contact {
+    background-color: black;
+    padding: 2rem 0;
+}
+
+.contact-container {
+    margin: 1rem 10rem;
+}
+
+.quicklinks {
+    list-style: none;
+}
+
+.quicklinks li a {
+    text-decoration: none;
+    color: white;
+}
+
+.quicklinks li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white;
+}
+i {
+    margin: 1rem 0.5rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
